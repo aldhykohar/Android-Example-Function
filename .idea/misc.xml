@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/DATA ALDI/Android/AndroidExampleFunction/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/DATA ALDI/Android/AndroidExampleFunction/app/src/main/res/layout/activity_tab_layout.xml" value="0.16979166666666667" />
         <entry key="..\:/DATA ALDI/Android/AndroidExampleFunction/app/src/main/res/layout/activity_toast.xml" value="0.16979166666666667" />
         <entry key="..\:/DATA ALDI/Android/AndroidExampleFunction/app/src/main/res/layout/custom_toast.xml" value="0.18102564102564103" />
+        <entry key="..\:/DATA ALDI/Android/AndroidExampleFunction/app/src/main/res/layout/item_view_pager.xml" value="0.18102564102564103" />
       </map>
     </option>
   </component>

@@ -40,4 +40,21 @@
         app:layout_constraintStart_toEndOf="@+id/mbPermission"
         app:layout_constraintTop_toTopOf="@+id/mbPermission" />
 
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mbTabLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:letterSpacing="0"
+        android:padding="12dp"
+        android:text="@string/tab_layout"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/mbToast"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mbPermission" />
 </androidx.constraintlayout.widget.ConstraintLayout>

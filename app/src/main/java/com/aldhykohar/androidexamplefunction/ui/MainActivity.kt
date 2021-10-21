@@ -1,6 +1,7 @@
 package com.aldhykohar.androidexamplefunction.ui
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.util.Log
@@ -27,6 +28,14 @@ class MainActivity : AppCompatActivity() {
         with(binding) {
             mbToast.setOnClickListener { showToast("This is Custom Toast") }
             mbPermission.setOnClickListener { requestPermission() }
+            mbTabLayout.setOnClickListener {
+                startActivity(
+                    Intent(
+                        this@MainActivity,
+                        TabLayoutActivity::class.java
+                    )
+                )
+            }
         }
     }
 
@@ -39,7 +48,9 @@ class MainActivity : AppCompatActivity() {
             this,
             permissionToRequest.toTypedArray(),
             0
-        )
+        ) else {
+            showToast("All permission are granted")
+        }
     }
 
     override fun onRequestPermissionsResult(

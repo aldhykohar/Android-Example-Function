@@ -3,4 +3,6 @@
     <string name="toast">Toast</string>
     <string name="permission">Permission</string>
     <string name="this_is_custom_toast">This is Custom Toast</string>
+    <string name="image">Image</string>
+    <string name="tab_layout">Tab Layout</string>
 </resources>
