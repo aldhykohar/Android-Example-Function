@@ -9,7 +9,7 @@ import com.aldhykohar.androidexamplefunction.databinding.ItemViewPagerBinding
 /**
  * Created by aldhykohar on 10/21/2021.
  */
-class ViewPagerAdapter(val images: List<Int>) :
+class ViewPagerAdapter(private val images: List<Int>) :
     RecyclerView.Adapter<ViewPagerAdapter.ViewPagerViewHolder>() {
     override fun onCreateViewHolder(
         parent: ViewGroup,
